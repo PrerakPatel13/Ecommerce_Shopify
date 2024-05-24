@@ -174,7 +174,7 @@ const CartPage = () => {
                   ""
                 ) : (
                   <>
-                    <DropIn
+                    {/* <DropIn
                       options={{
                         authorization: clientToken,
                         paypal: {
@@ -190,7 +190,7 @@ const CartPage = () => {
                       disabled={loading || !instance || !auth?.user?.address}
                     >
                       {loading ? "Processing ...." : "Make Payment"}
-                    </button>
+                    </button> */}
                   </>
                 )}
               </div>
